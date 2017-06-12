@@ -10,7 +10,7 @@ connection = engine.connect()
 #Print out table names
 print(engine.table_names())
 
-#Reflect the table 'TableName'
+#Reflect the table 'TableName' and store metadata in 'tablePrint'
 tablePrint = Table('TableName', metadata, autoload=True, autoload_with=engine)
 
 #Print out metadata of 'tableName'
