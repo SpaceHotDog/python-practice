@@ -10,7 +10,7 @@ connection = engine.connect()
 #Print out table names
 print(engine.table_names())
 
-#Store metadata of 'tableName'
+#Reflect the table 'TableName'
 tablePrint = Table('TableName', metadata, autoload=True, autoload_with=engine)
 
 #Print out metadata of 'tableName'
@@ -22,8 +22,9 @@ print(tablePrint.columns.keys())
 # Print full table metadata
 print(repr(metadata.tables['TableName']))
 
-#Basic SQL querying
-stmt = 'SELECT * FROM "TableName"'
+#SQLAlchemy querying
+stmt = select([TableName])
+print(stmt)
 
 #ResultProxy
 result_proxy = connection.execute(stmt)
