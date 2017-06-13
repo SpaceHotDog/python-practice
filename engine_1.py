@@ -24,7 +24,7 @@ print(tablePrint.columns.keys())
 # Print full table metadata
 print(repr(metadata.tables['TableName']))
 
-#SQLAlchemy querying
+#SQLAlchemy querying. select = SELECT * FROM [TableName]
 stmt = select([TableName])
 print(stmt)
 
