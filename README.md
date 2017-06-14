@@ -1,6 +1,4 @@
 # python-practice
-Practice with several Python libraries (SQLAlchemy, NumPy, SciKit, MathPlotLib, Pandas)
+Practica con algunas librerias para el analisis de base de datos (Pandas, SQLAlchemy, MatPlotLib)
 
-La idea del proyecto, es hacer una herramienta de scripts para web scraping y utilizar el feed para el analisis de datos.
-
-Se adjunta tambien, un archivo .csv para su analisis con Pandas.
+Se adjunta tambien, un archivo .csv para la practica.
