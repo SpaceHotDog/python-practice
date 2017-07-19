@@ -1,4 +1,4 @@
 #Write to file
-file = open(“F.txt”, “w”)
-file.write(f)
+file = open(“TestFile.txt”, “w”)
+file.write("Lo que quiera uerguillo")
 file.close()
