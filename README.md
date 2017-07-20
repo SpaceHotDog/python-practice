@@ -1,4 +1,5 @@
 # python-practice
-Practica con algunas librerias para el analisis de base de datos (Pandas, SQLAlchemy, MatPlotLib)
+
+Intento de hacer un escaner de base de datos, usando SQLAlchemy, que exporte los esquemas a un archivo .csv.
 
 Se adjunta tambien, un archivo .csv para la practica.
