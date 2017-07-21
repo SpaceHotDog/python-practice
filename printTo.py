@@ -1,7 +1,7 @@
-#Import the stored Engine from engine_1.py
+#Import the module engine_1.
 import engine_1
 
-#Write to file
+#Write to file.
 file = open(“TestFile.txt”, “w”)
-file.write("Lo que quiera uerguillo")
+file.write(.format(var))
 file.close()
