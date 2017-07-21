@@ -1,7 +1,7 @@
 # Importamos dependencias.
 from sqlalchemy import *
 
-# Creamos una variable #engine, que contiene el metodo de conexion del objeto Engine.
+# Creamos la variable #engine.
 #Mas info en docs.sqlalchemy.org/en/latest/core/engines.html
 engine = create_engine('lenguaje+driver://usuario:contraseña@host:puerto/nombreDB')
 
