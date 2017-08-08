@@ -1,16 +1,18 @@
-contQuest = input("Desea importar .csv para analisis? Yes/N: ")
-assert(contQuest == Yes)
-raise NameError
+contQuest = input("Desea importar .csv para analisis? Y/N: ")
+if contQuest == Y:
+  raise NameError
+continue
 
-def import_anals (file):
+def importar_arc (file):
   dataSet = file.csv
   
-  try:
-    readOnly = open("dataSet", "r")
+    try:
+      readOnly = open("dataSet", "r")
  
- except NameError:
-    Print("Wrong file maybe?")
+    except NameError:
+      Print("Mal nombre o ext?")
   
- finally:
-    readOnly.close()  
+    finally:
+      Print(readOnly)
+      readOnly.close()  
   
