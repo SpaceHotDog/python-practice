@@ -9,3 +9,8 @@ Our regex contains three groups:
 
 pattern = r"([\w\.-]+)@([\w\.-]+)(\.[\w]+)"
 
+str = "Favor de contactarse con tuvieja@elpirata.com"
+
+match = re.search(pattern, str)
+if match:
+   print(match.group())
