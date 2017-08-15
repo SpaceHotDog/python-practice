@@ -7,5 +7,5 @@ Our regex contains three groups:
 3 - the domain suffix.
 """
 
-pattern = r"([\w\.-]+)@([\w\.-]+)(\.[\w\.]+)"
+pattern = r"([\w\.-]+)@([\w\.-]+)(\.[\w]+)"
 
